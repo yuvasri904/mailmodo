@@ -1,0 +1,210 @@
+{
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09AGteOyoaL2rlXv3ARoL5HPCKXB5KXmNO-cI6g6jQzu7dMjNuhTosBXmdtKgSYOkzF5YmJaKW5kn8o4aS99iqVPE",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1742625768.778884,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CLID",
+      "value": "49d99541346a4f5b94f0d0c3b2cb8de2.20240923.20250923",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1758609765.271957,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_clck",
+      "value": "i3x1p9%7C2%7Cfpf%7C0%7C1727",
+      "domain": ".mailmodo.com",
+      "path": "/",
+      "expires": 1758609766,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "G_ENABLED_IDPS",
+      "value": "google",
+      "domain": ".uat.mailmodo.com",
+      "path": "/",
+      "expires": 1761633767.229535,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fuid",
+      "value": "ZTQ4ZDUwOTgtMTZhNS00MDA4LTg5NWYtNmE5ZDYwNTFkMmNh",
+      "domain": ".mailmodo.com",
+      "path": "/",
+      "expires": 1761633767.686914,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "2457FFBB8CF5675D046AEAB88D5866C3",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1760769768.402074,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1727678568.402208,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRM_B",
+      "value": "2457FFBB8CF5675D046AEAB88D5866C3",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1760769768.402298,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SM",
+      "value": "C",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "2457FFBB8CF5675D046AEAB88D5866C3",
+      "domain": ".clarity.ms",
+      "path": "/",
+      "expires": 1760769769.53939,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1727678569.539538,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ANONCHK",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1727074369.539605,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "authToken",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkQXQiOjE3MjcwNzM3NzAzMDksInVzZXJJZCI6Ijg1NmI5YmJkLWQ4NjgtNDQwYy1hM2Q0LWQwYjdlNWIyZDJlMSIsImlwIjoiNDkuMjA1LjgzLjE0NSIsInVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMjguMC4wLjAgU2FmYXJpLzUzNy4zNiIsInNlc3Npb24iOiJhODRmYzFiZS02ZDY1LTRmNWUtYjVlNi1jYTZjMzVlOWQ5ZjQiLCJtZW1iZXJJZCI6Ijg1NmI5YmJkLWQ4NjgtNDQwYy1hM2Q0LWQwYjdlNWIyZDJlMSIsImxpbWl0ZWRBY2Nlc3MiOmZhbHNlLCJpc1N1cGVyUGFzc3dvcmQiOmZhbHNlLCJsb2dpbklkIjoiZTNiZDU3ZjgtNGQ5My00ZDFlLTk4ZmUtNGY2YmIxNTgyZGVlIiwiaXNNYWdpY0xvZ2luIjpmYWxzZSwiaXNNRkFMb2dpbiI6ZmFsc2UsImlhdCI6MTcyNzA3Mzc3MH0.VjIJvwiF3kbqdyPKDbZuLionNXXZVnzgUlP1dtykciU",
+      "domain": "internalapi-uat.app.mailmodo.com",
+      "path": "/",
+      "expires": 1729665771.648904,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clsk",
+      "value": "9xefvl%7C1727073771105%7C2%7C1%7Ct.clarity.ms%2Fcollect",
+      "domain": ".mailmodo.com",
+      "path": "/",
+      "expires": 1727160171,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "atlasIdentityfudldb3tp1",
+      "value": "efb8910b-15d9-4832-b26c-8e9514523e64",
+      "domain": ".mailmodo.com",
+      "path": "/",
+      "expires": 1729665771,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://uat.mailmodo.com",
+      "localStorage": [
+        {
+          "name": "IS_USER_LOGGED_IN_BEFORE_KEY",
+          "value": "true"
+        },
+        {
+          "name": "onboardingState",
+          "value": "[1,1,1,1]"
+        },
+        {
+          "name": "atlasIdentity",
+          "value": "{\"atlasId\":\"efb8910b-15d9-4832-b26c-8e9514523e64\",\"companyId\":\"0ff833fb-77a0-4780-9ea9-a1a958b53d6c\",\"createdAt\":1727073771139,\"email\":\"ashwin@mailmodo.com\",\"isVisitor\":false,\"name\":\"ashwinbarath\",\"userId\":\"856b9bbd-d868-440c-a3d4-d0b7e5b2d2e1\",\"fields\":{\"title\":null,\"department\":null,\"photo\":null,\"street1\":null,\"street2\":null,\"city\":null,\"country\":null,\"postalCode\":null,\"secondaryEmail\":null,\"isCrmConnected\":true,\"crmSource\":\"hubspot\",\"slackUsername\":null,\"slackUserId\":null,\"shopify\":null},\"customFields\":{\"city\":\"None\",\"email\":\"ankush@mailmodo.com\",\"phone\":\"+913742736237\",\"state\":\"None\",\"address\":\"None\",\"company\":\"None\",\"country\":\"None\",\"ip_city\":\"hyderabad\",\"ip_state\":\"telangana\",\"jobtitle\":\"None\",\"lastname\":\"Singh\",\"firstname\":\"Ankush Singh\",\"plan_name\":\"Free Plan\",\"team_user\":\"false\",\"account_id\":\"35aa4eb7-b809-4299-bb30-3a7114ce519e\",\"createdate\":\"2022-07-12T13:11:17.295Z\",\"ip_country\":\"india\",\"ip_zipcode\":\"None\",\"vitally_id\":\"35aa4eb7-b809-4299-bb30-3a7114ce519e\",\"mobilephone\":\"None\",\"hs_object_id\":\"9446601\",\"hubspot_owner_id\":\"84562571\",\"lastmodifieddate\":\"2023-11-11T07:56:16.060Z\",\"cb_autocollection\":\"on\",\"associatedcompanyid\":\"6238200223\",\"cb_subscriptiostatus\":\"None\",\"hs_additional_emails\":\"None\",\"primary_phone_number\":\"+913742736237\",\"hs_calculated_phone_number\":\"+913742736237\",\"hs_calculated_mobile_number\":\"None\",\"hs_last_sales_activity_date\":\"1970-01-20T16:08:09.368Z\"},\"phoneNumber\":\"+913742736237\",\"account\":{\"companyId\":\"0ff833fb-77a0-4780-9ea9-a1a958b53d6c\",\"name\":\"Mailmodo Technologies Inc\",\"key\":\"mailmodo-technologies-inc\",\"email\":null,\"website\":\"https://api.hubapi.com/crm/test\",\"primaryContactId\":null,\"accountManagerId\":null,\"secondaryAccountManagerId\":null,\"externalId\":\"ca5daf9c-7cc8-4a5d-9d2f-fae5a6eb8767\",\"customFields\":{},\"monthlySpend\":null,\"industry\":\"COMPUTER_SOFTWARE\",\"mappedDomains\":[],\"icon\":null,\"id\":\"8100e383-6977-4a7d-8bf5-1a32d1643fcb\",\"primaryContact\":null,\"accountManager\":null,\"stats\":{\"numCustomers\":2870,\"numTickets\":638,\"numTicketsT7\":20,\"numTicketsT30\":57,\"numSessions\":10134,\"numSessionsT7\":0,\"numSessionsT30\":841,\"csatPositive\":0,\"csatTotal\":0}},\"integrations\":{},\"appId\":\"fudldb3tp1\",\"version\":5}"
+        },
+        {
+          "name": "loggedIn",
+          "value": "true"
+        },
+        {
+          "name": "advancedPanelKey",
+          "value": "0"
+        },
+        {
+          "name": "debug",
+          "value": "*:warn,*:error"
+        },
+        {
+          "name": "_grecaptcha",
+          "value": "09AGteOyp5-VtEVFcaIhFppXO341Ini0wXCqtxOM23yFYZyA4UCiugb78ABe9VO7GmosaX23giAJ03wnIHdcN--rIBpkdF2yLxsyWCwQ"
+        },
+        {
+          "name": "atlasLocation",
+          "value": "{\"location\":\"Chennai, IN\",\"ipAddress\":\"49.205.83.145\",\"recordedAt\":1727073772179}"
+        },
+        {
+          "name": "accountID",
+          "value": "856b9bbd-d868-440c-a3d4-d0b7e5b2d2e1"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MTg0Y2kwYWk0b2hrcQ=="
+        },
+        {
+          "name": "rc::f",
+          "value": "0aAH5V8OUNvoEjJsl5OMBoK7n_Fnm2CdaUWlVOrlMvcGmxvKBKCua0RsumTKN_FDVGetpJdRI"
+        }
+      ]
+    }
+  ]
+}

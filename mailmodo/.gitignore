@@ -1,0 +1,11 @@
+node_modules
+playwright-report
+test-results
+package-lock.json
+metadata.json
+.env
+.vscode
+.env.aws
+LoginAuth.json
+**/downloads/
+test-results.json

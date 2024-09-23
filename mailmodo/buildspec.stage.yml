@@ -1,0 +1,44 @@
+version: 0.2
+env:
+  git-credential-helper: yes
+  variables:
+    git_url: "git@github.com:gomigo-labs/scrut-playwright-automation.git"
+    env: staging
+    region: us-west-2
+phases:
+  install:
+    runtime-versions:
+      nodejs: latest
+    commands:
+      - apt-get update
+      - apt-get install -y jq
+      - apt-get install -y jq
+      - apt-get install -y zip
+
+  pre_build:
+    commands:
+      - sh ./scripts/getEnvVars.sh us-west-2 staging
+
+  build:
+    commands:
+      # run tests based on TEST_SUITE value
+      - npm run test -- $MODULE_NAME $PROJECT $TAG
+      
+  post_build:
+    commands:
+      - if [ -d "playwright-report" ]; then 
+          echo "playwright-report directory exists, uploading to S3 and zipping"; 
+          aws s3 cp playwright-report s3://scrut-playwright-automation/playwright/$MODULE_NAME --recursive; 
+          zip -r artifacts.zip playwright-report; 
+        else 
+          echo "playwright-report directory does not exist"; 
+        fi
+      - aws s3 cp artifacts.zip s3://scrut-playwright-automation/playwright/$MODULE_NAME/artifacts.zip
+      - export S3_URL=$(aws s3 presign s3://scrut-playwright-automation/playwright/$MODULE_NAME/artifacts.zip)
+      - sh ./utils/publishMessageToSlack.sh $S3_URL $env $region
+
+artifacts:
+  files:
+    - 'artifacts.zip'
+  discard-paths: false
+  base-directory: '.'
